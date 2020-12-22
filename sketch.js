@@ -123,6 +123,8 @@ function NAME() {
   database.ref('/').update({
     Name: input.value()
   });
+  sub.hide();
+  input.hide();
 }
 
 function Start() {
